@@ -11,8 +11,8 @@ function evenSizedString(str) {
     return false;
   }
 }
-// evenSizedString("Dhaka");
-// evenSizedString("Ctg");
+evenSizedString("Dhaka");
+evenSizedString("Ctg");
 
 function doubleOrTriple(number, doDouble) {
   if (doDouble === true) {
@@ -31,9 +31,11 @@ function numberOfElements(numbers) {
   const len = numbers.length;
   return len;
 }
-numberOfElements([12, 45, 78, 45, 121254, 4, 5]);
 
-function getAge(person){
-    const age = person.age
-    return age
+const output = numberOfElements([12, 45, 78, 45, 121254, 4, 5]);
+console.log(output);
+
+function getAge(person) {
+  const age = person.age;
+  return age;
 }
