@@ -14,7 +14,7 @@ function square(number) {
 square(4);
 square(12);
 square(105);
-square(5);
+square(5);   
 
 function add(num1, num2) {
   const sum = num1 + num2;
@@ -28,3 +28,4 @@ function addAll(a, b, c, d) {
   console.log(total);
 }
 addAll(4, 5, 6, 7);
+
